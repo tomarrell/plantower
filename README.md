@@ -7,7 +7,7 @@ This library allows you to decode data coming from the Plantower PMS5003 Digital
 universal particle concentration sensor.
 
 Currently supports models:
-- PMS5003 (Active Mode)
+- PMS5003 [ [Datasheet](./pms5003_datasheet.pdf) ] (Active Mode)
 
 <img src="sensor.jpg" width="50%"/>
 
