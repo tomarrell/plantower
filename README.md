@@ -6,6 +6,8 @@ universal particle concentration sensor.
 Currently supports models:
 - PMS5003 (Active Mode)
 
+<img src="sensor.jpg" width="50%"/>
+
 ## Usage
 
 The library takes an `io.Reader` representing a stream of bytes from the sensor.
