@@ -1,5 +1,6 @@
 # Plantower
 
+[![Tests](https://github.com/tomarrell/plantower/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/tomarrell/plantower/actions/workflows/test.yaml)
 [![Go Reference](https://pkg.go.dev/badge/github.com/tomarrell/plantower.svg)](https://pkg.go.dev/github.com/tomarrell/plantower)
 
 This library allows you to decode data coming from the Plantower PMS5003 Digital
