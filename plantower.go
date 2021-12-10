@@ -20,22 +20,22 @@ const (
 // Reading contains the data returned in a single frame by the PMS5003.
 type Reading struct {
 	// "Standard Particle" aka lab environment
-	pm1_lab   int
-	pm2_5_lab int
-	pm10_lab  int
+	PM1_lab   int
+	PM2_5_lab int
+	PM10_lab  int
 
 	// Atmospheric measurements
-	pm1_atm   int
-	pm2_5_atm int
-	pm10_atm  int
+	PM1_atm   int
+	PM2_5_atm int
+	PM10_atm  int
 
 	// Particle Count per 0.1L of air
-	pc_0_3 int
-	pc_0_5 int
-	pc_1   int
-	pc_2_5 int
-	pc_5   int
-	pc_10  int
+	PC_0_3 int
+	PC_0_5 int
+	PC_1   int
+	PC_2_5 int
+	PC_5   int
+	PC_10  int
 }
 
 // ReadNext takes a reader providing a stream of bytes from the PMS5003 and
