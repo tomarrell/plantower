@@ -102,17 +102,17 @@ func ReadNext(r io.Reader) (*Reading, error) {
 	}
 
 	return &Reading{
-		pm1_lab:   int(pm1_lab),
-		pm2_5_lab: int(pm2_5_lab),
-		pm10_lab:  int(pm10_lab),
-		pm1_atm:   int(pm1_atm),
-		pm2_5_atm: int(pm2_5_atm),
-		pm10_atm:  int(pm10_atm),
-		pc_0_3:    int(pc_0_3),
-		pc_0_5:    int(pc_0_5),
-		pc_1:      int(pc_1),
-		pc_2_5:    int(pc_2_5),
-		pc_5:      int(pc_5),
-		pc_10:     int(pc_10),
+		PM1_lab:   int(pm1_lab),
+		PM2_5_lab: int(pm2_5_lab),
+		PM10_lab:  int(pm10_lab),
+		PM1_atm:   int(pm1_atm),
+		PM2_5_atm: int(pm2_5_atm),
+		PM10_atm:  int(pm10_atm),
+		PC_0_3:    int(pc_0_3),
+		PC_0_5:    int(pc_0_5),
+		PC_1:      int(pc_1),
+		PC_2_5:    int(pc_2_5),
+		PC_5:      int(pc_5),
+		PC_10:     int(pc_10),
 	}, nil
 }

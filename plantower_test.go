@@ -16,18 +16,18 @@ func TestRead(t *testing.T) {
 		r, err := ReadNext(s)
 		require.NoError(t, err)
 		require.Equal(t, &Reading{
-			pm1_lab:   4,
-			pm2_5_lab: 12,
-			pm10_lab:  14,
-			pm1_atm:   4,
-			pm2_5_atm: 12,
-			pm10_atm:  14,
-			pc_0_3:    498,
-			pc_0_5:    448,
-			pc_1:      70,
-			pc_2_5:    0,
-			pc_5:      0,
-			pc_10:     0,
+			PM1_lab:   4,
+			PM2_5_lab: 12,
+			PM10_lab:  14,
+			PM1_atm:   4,
+			PM2_5_atm: 12,
+			PM10_atm:  14,
+			PC_0_3:    498,
+			PC_0_5:    448,
+			PC_1:      70,
+			PC_2_5:    0,
+			PC_5:      0,
+			PC_10:     0,
 		}, r)
 	})
 
@@ -36,18 +36,18 @@ func TestRead(t *testing.T) {
 		r, err := ReadNext(s)
 		require.NoError(t, err)
 		require.Equal(t, &Reading{
-			pm1_lab:   4,
-			pm2_5_lab: 12,
-			pm10_lab:  14,
-			pm1_atm:   4,
-			pm2_5_atm: 12,
-			pm10_atm:  14,
-			pc_0_3:    496,
-			pc_0_5:    446,
-			pc_1:      70,
-			pc_2_5:    0,
-			pc_5:      0,
-			pc_10:     0,
+			PM1_lab:   4,
+			PM2_5_lab: 12,
+			PM10_lab:  14,
+			PM1_atm:   4,
+			PM2_5_atm: 12,
+			PM10_atm:  14,
+			PC_0_3:    496,
+			PC_0_5:    446,
+			PC_1:      70,
+			PC_2_5:    0,
+			PC_5:      0,
+			PC_10:     0,
 		}, r)
 	})
 }
