@@ -25,3 +25,7 @@ func main() {
   // TODO
 }
 ```
+
+## License
+
+Licensed under the MIT license. See [LICENSE](./LICENSE) for more details.
