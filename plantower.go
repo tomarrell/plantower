@@ -17,6 +17,7 @@ const (
 	frameSize      = 32
 )
 
+// Reading contains the data returned in a single frame by the PMS5003.
 type Reading struct {
 	// "Standard Particle" aka lab environment
 	pm1_lab   int
@@ -37,7 +38,10 @@ type Reading struct {
 	pc_10  int
 }
 
-// ReadNext
+// ReadNext takes a reader providing a stream of bytes from the PMS5003 and
+// returns a struct with the decoded values from a single reading.
+//
+// The stream does not necessarily have to begin with the start bytes.
 func ReadNext(r io.Reader) (*Reading, error) {
 	head := make([]byte, 1)
 	for {
