@@ -1,5 +1,7 @@
 # Plantower
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/tomarrell/plantower.svg)](https://pkg.go.dev/github.com/tomarrell/plantower)
+
 This library allows you to decode data coming from the Plantower PMS5003 Digital
 universal particle concentration sensor.
 
