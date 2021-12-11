@@ -63,7 +63,7 @@ func ReadNext(r io.Reader) (*Reading, error) {
 	}
 
 	frame := make([]byte, frameSize-startBytesSize)
-	n, err := r.Read(frame)
+	n, err := io.ReadFull(r, frame)
 	if err != nil {
 		return nil, err
 	}
